@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Interfaces\Repositories - Copy\**" />
+    <EmbeddedResource Remove="Interfaces\Repositories - Copy\**" />
+    <None Remove="Interfaces\Repositories - Copy\**" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="BE_CourseSelling.Api/BE_CourseSelling.Api.csproj" />
+  <Project Path="BE_CourseSelling.Core/BE_CourseSelling.Core.csproj" />
+  <Project Path="BE_CourseSelling.Infrastructure/BE_CourseSelling.Infrastructure.csproj" />
+  <Project Path="BE_CourseSelling.Service/BE_CourseSelling.Service.csproj" />
+</Solution>
