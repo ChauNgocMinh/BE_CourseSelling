@@ -249,3 +249,5 @@ ModelManifest.xml
 *.db
 *.db-shm
 *.db-wal
+/BE_CourseSelling.Api/sync-postman.cmd
+/BE_CourseSelling.Api/appsettings.Development.json
