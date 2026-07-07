@@ -12,10 +12,14 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BE_CourseSelling.Core\BE_CourseSelling.Core.csproj" />
+    <ProjectReference Include="..\BE_CourseSelling.Infrastructure\BE_CourseSelling.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="12.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.3.11" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="10.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.0.1" />
   </ItemGroup>
 
 </Project>

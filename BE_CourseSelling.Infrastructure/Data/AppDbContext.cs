@@ -1,10 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using BE_CourseSelling.Infrastructure.Entities;
 using BE_CourseSelling.Core.Entities;
 using BE_CourseSelling.Core.Common;
 
 namespace BE_CourseSelling.Infrastructure.Data;
 
-public class AppDbContext : DbContext
+public class AppDbContext : IdentityDbContext<ApplicationUser>
 {
     public AppDbContext(DbContextOptions<AppDbContext> options)
    : base(options)

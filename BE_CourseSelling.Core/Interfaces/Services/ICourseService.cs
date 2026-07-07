@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using BE_CourseSelling.Core.DTOs;
+﻿using BE_CourseSelling.Core.DTOs;
 
 namespace BE_CourseSelling.Core.Interfaces.Services
 {
